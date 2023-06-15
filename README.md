@@ -1,11 +1,11 @@
-About r-linprog
-===============
+About r-linprog-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-linprog-feedstock/blob/main/LICENSE.txt)
 
 Home: http://linprog.r-forge.r-project.org/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-linprog-feedstock/blob/main/LICENSE.txt)
 
 Summary: This package can be used to solve Linear Programming / Linear Optimization problems by using the simplex algorithm.
 
