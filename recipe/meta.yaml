@@ -1,4 +1,4 @@
-{% set version = "0.9-4" %}
+{% set version = "0.9-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/linprog_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/linprog/linprog_{{ version }}.tar.gz
-  sha256: 81a6aa2fdc075f12dc912794d0554f87705a8b872b99c89a90a69ee9ada864b4
+  sha256: 8e5d38217b95795f1af715fd4283d35c74158f4ba6418636e981f7d6636a43e0
 
 build:
-  number: 4
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
